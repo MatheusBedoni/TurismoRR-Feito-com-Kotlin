@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "433681257308",
+    "firebase_url": "https://turismorr-1549725355749.firebaseio.com",
+    "project_id": "turismorr-1549725355749",
+    "storage_bucket": "turismorr-1549725355749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433681257308:android:038a65bd0128b040",
+        "android_client_info": {
+          "package_name": "com.app.redes.turismorr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433681257308-488s1deqe8oehn3bj9tt3pksr76hejsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFzuQm_3tRzFQ_F4qhXjBokCeQEyRcvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

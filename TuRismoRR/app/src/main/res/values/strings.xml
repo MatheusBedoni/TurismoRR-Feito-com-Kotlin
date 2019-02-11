@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TurismoRR</string>
+    <string name="google_map_api">
+    AIzaSyCkFzuQm_3tRzFQ_F4qhXjBokCeQEyRcvQ
+    </string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

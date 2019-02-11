@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:background="#fff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profissionais"
+        android:visibility="visible"
+        android:elevation="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+       android:layout_marginBottom="10dp"
+        android:background="@drawable/borda_arredondada_dois"
+        android:layout_alignParentTop="true"
+       >
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/paraca"
+             />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Praça das aguas"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+</RelativeLayout>

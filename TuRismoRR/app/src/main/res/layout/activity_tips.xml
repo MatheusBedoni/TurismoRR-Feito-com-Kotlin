@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:layout_weight="1"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/monte_roraima" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:id="@+id/titulo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/descricao"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
